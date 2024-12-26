@@ -22,4 +22,4 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
       ],
     });
   
-export const API_PROMPT = 'Generate travel plan for location:{location} for {noOfDays} days for {people} people with {budget}budget, give me hotel options list with hotel name hotel address price hotel image url geocoordinates ratings descriptions and suggest itinerary with placeName palce Details place image url geocoordinates ticket pricing time to travel each location for {totalDays} days with each day planned and best time to visit and opening time and make sure to provide array of objects in JSON format.'
+export const API_PROMPT = 'Generate travel plan for location:{location} for {noOfDays} days for {people} people with {budget}budget, give me hotel options list with hotel name hotel address price hotel image url geocoordinates ratings descriptions and suggest itinerary with placeName palce Details place image url geocoordinates ticket pricing time to travel each location for {totalDays} days with each day planned and best time to visit and opening time and make sure to provide array of objects in JSON format and please make sure to do the same reference names each time.'

@@ -8,7 +8,7 @@ const Hotels = ({trip}) => {
             <h2 className='font-bold text-xl mt-5'>Hotel Recommendations</h2>
 
             <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 mt-5'>
-                {trip?.tripData?.hotelOptions?.map((hotel, index) => (
+                {trip?.tripData?.travelPlan?.hotels?.map((hotel, index) => (
 
                     <HotelCard hotel={hotel}/>
                 ))}

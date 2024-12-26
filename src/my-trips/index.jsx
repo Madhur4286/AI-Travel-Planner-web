@@ -24,6 +24,7 @@ const MyTrips = () => {
             const q = query(collection(db, "AITrips"), where("userEmail", "==", user?.email))
     
             const querySnapshot = await getDocs(q)
+            // console.log(querySnapshot)
     
             const uniqueTripsMap = new Map()
             querySnapshot.forEach((doc) => {
